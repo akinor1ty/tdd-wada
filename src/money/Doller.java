@@ -13,7 +13,7 @@ public class Doller {
     }
 
     void times(int mutiplier) {
-        amount = this.amount * 2;
+        amount *= mutiplier;
     }
 
 
