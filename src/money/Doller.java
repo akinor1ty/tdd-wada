@@ -8,11 +8,12 @@ public class Doller {
     int amount;
 
     public Doller(int amount) {
+        this.amount = amount;
 
     }
 
     void times(int mutiplier) {
-        amount = 5 * 2;
+        amount = this.amount * 2;
     }
 
 
