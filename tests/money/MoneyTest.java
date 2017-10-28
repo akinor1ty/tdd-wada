@@ -17,4 +17,9 @@ class MoneyTest {
         assertEquals(15, product.amount);
     }
 
+    @Test
+    public void testEquality() {
+        assertTrue(new Doller(5).equals(new Doller(5)));
+    }
+
 }

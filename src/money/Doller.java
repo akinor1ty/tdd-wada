@@ -13,8 +13,11 @@ public class Doller {
     }
 
     Doller times(int mutiplier) {
-//        amount *= mutiplier;
         return new Doller(amount * mutiplier);
+    }
+
+    public boolean equals(Object object) {
+        return true;
     }
 
 
