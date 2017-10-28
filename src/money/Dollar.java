@@ -3,21 +3,21 @@ package money;
 /**
  * Created by fujiwaraakinori on 2017/10/28.
  */
-public class Doller {
+public class Dollar {
 
     int amount;
 
-    public Doller(int amount) {
+    public Dollar(int amount) {
         this.amount = amount;
 
     }
 
-    Doller times(int mutiplier) {
-        return new Doller(amount * mutiplier);
+    Dollar times(int multiplier) {
+        return new Dollar(amount * multiplier);
     }
 
     public boolean equals(Object object) {
-        Doller dollar = (Doller) object;
+        Dollar dollar = (Dollar) object;
         return amount == dollar.amount;
     }
 

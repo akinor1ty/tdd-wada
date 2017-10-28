@@ -7,7 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 /**
  * Created by fujiwaraakinori on 2017/10/28.
  */
-class DollerTest {
+class DollarTest {
     @Test
     void times() {
 

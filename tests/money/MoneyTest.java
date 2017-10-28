@@ -10,8 +10,8 @@ import static org.junit.jupiter.api.Assertions.*;
 class MoneyTest {
     @Test
     public void testMultiplication() {
-        Doller five = new Doller(5);
-        Doller product = five.times(2);
+        Dollar five = new Dollar(5);
+        Dollar product = five.times(2);
         assertEquals(10, product.amount);
         product = five.times(3);
         assertEquals(15, product.amount);
@@ -19,8 +19,8 @@ class MoneyTest {
 
     @Test
     public void testEquality() {
-        assertTrue(new Doller(5).equals(new Doller(5)));
-        assertFalse(new Doller(5).equals(new Doller(6)));
+        assertTrue(new Dollar(5).equals(new Dollar(5)));
+        assertFalse(new Dollar(5).equals(new Dollar(6)));
     }
 
 }
