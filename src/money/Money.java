@@ -5,4 +5,8 @@ package money;
  */
 public class Money {
 
+    public Money() {
+
+    }
+
 }

@@ -3,7 +3,7 @@ package money;
 /**
  * Created by fujiwaraakinori on 2017/10/28.
  */
-public class Dollar {
+public class Dollar extends Money {
 
     private int amount;
 
