@@ -12,8 +12,9 @@ public class Doller {
 
     }
 
-    void times(int mutiplier) {
-        amount *= mutiplier;
+    Doller times(int mutiplier) {
+//        amount *= mutiplier;
+        return new Doller(amount * mutiplier);
     }
 
 
