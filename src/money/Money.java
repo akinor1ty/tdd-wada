@@ -3,12 +3,22 @@ package money;
 /**
  * Created by fujiwaraakinori on 2017/10/28.
  */
-public class Money {
+public abstract class Money {
     protected int amount;
 
     public Money() {
 
     }
+
+    static Dollar dollar(int amount) {
+        return new Dollar(amount);
+    }
+
+    static Franc franc(int amount) {
+        return new Franc(amount);
+    }
+
+    abstract Money times(int multiplier);
 
     public boolean equals(Object object) {
         Money money = (Money) object;
